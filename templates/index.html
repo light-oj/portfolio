@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
+	<link href="{% static 'css/yellow-black.css' %}" rel="stylesheet">
+	<link href="{% static 'css/preview.css' %}" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Akọ́ládé Ọ̀jẹ́sínà | Portfolio</title>
+</head>
+<body class="with-header position-relative" data-spy="scroll" data-target="#sections-nav" data-offset="80">
+	<header class="header">
+		<div class="container-fluid-limited d-flex align-items-center justify-content-between">
+			<a href="{% url 'home' %}" class="header-brand">
+				<img src="{% static 'img/logo_w.png' %}" data-light-src="{% static 'img/logo (2).png' %}" data-dark-src="{% static 'img/logo_w.png' %}" alt="Your logo">
+			</a>
+			<button class="sections-nav-toggler" aria-label="Toggle navigation">
+				<span class="sections-nav-toggler-bar"></span>
+				<span class="sections-nav-toggler-bar"></span>
+				<span class="sections-nav-toggler-bar"></span>
+				<span class="sections-nav-toggler-bar"></span>
+			</button>
+		</div>
+	</header>
+	<nav class="sections-nav-container">
+		<ul id="sections-nav" class="nav sections-nav sections-nav-animated">
+			<li class="sections-nav-item">
+				<a href="#section-01" class="nav-link sections-nav-link goto-section active">
+					<span class="sections-nav-counter">01</span>
+					Top
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-02" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">02</span>
+					About me
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-03" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">03</span>
+					Education
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-04" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">04</span>
+					Skills
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-05" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">05</span>
+					Facts
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-06" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">06</span>
+					Experiences
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-07" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">07</span>
+					References
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-08" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">08</span>
+					Projects
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-09" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">09</span>
+					Testimonials
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="#section-10" class="nav-link sections-nav-link goto-section">
+					<span class="sections-nav-counter">10</span>
+					Contact
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<a href="{% static 'file/Akolade Ojesina.pdf' %}" method="GET" class="nav-link sections-nav-link goto-section">
+					Download CV
+				</a>
+			</li>
+			<li class="sections-nav-item">
+				<div class="sections-nav-info">
+					<a href="mailto:ojeshinaakolade@gmail.com">ojeshinaakolade@gmail.com</a><br>
+					<a href="tel:+2348165313630">(+234) 8165313630</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<main class="content">
+		<div class="container-fluid-limited">
+			<div class="row">
+				<div class="col col-xl-9">
+					<section id="section-01" class="section section-sub-header animation interaction-in">
+						<div class="section-body">
+							<div class="jumbotron jumbotron-fluid pt-6 pt-lg-8 pb-0 mb-0">
+								<img src="{% static 'img/myavatar.jpg' %}" class="jumbotron-img animation-translate animation-item-1" alt="Avatar">
+								<h2 class="display-1 display-animated display-animated-in animation-translate animation-item-2">Akọ́ládé<br>Ọ̀jẹ́sínà</h2>
+								<p class="lead animation-translate animation-item-3">WEB DEVELOPER | DATA SCIENTIST</p>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-4">
+							<a class="section-next goto-section" href="#section-02">
+								<span class="section-next-counter">01/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-02" class="section animation">
+						<div class="section-body">
+							<div class="row">
+								<div class="col col-xl-10">
+									<h2 class="section-title animation-translate-overline animation-item-1">About me</h2>
+									<article class="article animation-translate animation-item-2">
+										<p>
+											“My name is Akọ́ládé Ọ̀jẹ́sínà and I am currently a graduate student at University of Ibadan pursuing a Master’s degree in Information Science. 
+											I am also a freelance Web Developer and Data Scientist.
+										</p>
+
+										<p>
+											I am very analytical, creative, and service oriented. Throughout my internships, academics, freelance and volunteer work, 
+											I have been able to really expand my knowledge of the IT industry, and gain experience interacting with clients, 
+											software developer, data scientists, stakeholders and IT industry regulators.
+										</p>
+
+										<p>
+											I am actively seeking opportunity to work in a challenging position combining my skills in Data Science 
+											and Software Engineering, which provides professional development, interesting experiences and personal growth."
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-03">
+								<span class="section-next-counter">02/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-03" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Education</h2>
+							<div class="timeline timeline-animated">
+								<div class="timeline-item">
+									<span class="timeline-date">2019&nbsp;–&nbsp;now</span>
+									<h3 class="timeline-title">University of Ibadan</h3>
+									<p class="timeline-text">Master of Information Science</p>
+								</div>
+								<div class="timeline-item">
+									<span class="timeline-date">2015&nbsp;</span>
+									<h3 class="timeline-title">Adeyemi College of Education</h3>
+									<p class="timeline-text">B.Sc(Ed.) Physics</p>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-04">
+								<span class="section-next-counter">03/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-04" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Skills</h2>
+							<div class="row animation-translate animation-item-2">
+								<div class="col-12 col-md-6">
+									<strong class="progress-label">CSS</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<strong class="progress-label">Html</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<strong class="progress-label">Javascript</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<strong class="progress-label">Numpy, Pandas & Matplotlib</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6">
+									<strong class="progress-label">Python</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<strong class="progress-label">Django</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<strong class="progress-label">Bootstrap</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<strong class="progress-label">SQL</strong>
+									<div class="progress progress-animated mb-9">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-05">
+								<span class="section-next-counter">04/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-05" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Facts</h2>
+							<div class="row animation-translate animation-item-2">
+								<div class="col-12 col-md-6 col-lg-3">
+									<div class="counter mb-6 mb-lg-0">
+										<span class="counter-label">Coffees / per day</span>
+										<span data-counter-from="0" data-counter-to="4">4</span>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-3">
+									<div class="counter mb-6 mb-lg-0">
+										<span class="counter-label">Launched websites</span>
+										<span data-counter-from="0" data-counter-to="14">14</span>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-3">
+									<div class="counter mb-6 mb-lg-0">
+										<span class="counter-label">Lines of code</span>
+										<span data-counter-from="0" data-counter-to="12000">12&nbsp;000+</span>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-3">
+									<div class="counter">
+										<span class="counter-label">Happy clients</span>
+										<span data-counter-from="0" data-counter-to="50">50</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-06">
+								<span class="section-next-counter">05/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-06" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Experiences</h2>
+							<div class="timeline timeline-animated">
+								<div class="timeline-item">
+									<span class="timeline-date">06/2020&nbsp;–&nbsp;now</span>
+									<h3 class="timeline-title">Freelance</h3>
+									<p class="timeline-text">PYTHON/DJANGO DEVELOPER</p>
+									<p><b>Key Responsibilities:</b></p>
+									<ul>
+										<li>Designed and developed websites using HTML, CSS, JavaScript and Django.</li>
+										<li>Researching, planning and managing projects.</li>
+										<li>Designing features, creating wireframes, and writing out specifications.</li>
+									</ul>
+								</div>
+								<div class="timeline-item">
+									<span class="timeline-date">12/2019&nbsp;–&nbsp;now</span>
+									<h3 class="timeline-title">Freelance</h3>
+									<p class="timeline-text">DATA SCIENTIST</p>
+									<p><b>Key Responsibilities:</b></p>
+									<ul>
+										<li>Completed analysis on different datasets to generate insights and business intelligence.</li>
+										<li>Used various models and libraries such as Numpy, Pandas, Scikit-Learn etc.</li>
+									</ul>
+								</div>
+								<div class="timeline-item">
+									<span class="timeline-date">07/2019&nbsp;–&nbsp;06/2020</span>
+									<h3 class="timeline-title">Classic InfoTech</h3>
+									<p class="timeline-text">SOFTWARE DEVELOPER INTERN</p>
+									<p><b>Key Responsibilities:</b></p>
+									<ul>
+										<li>Designed and developed the UI of websites using HTML, CSS and JavaScript.</li>
+										<li>Created database using MySQL, wrote several queries to extract data from database.</li>
+										<li>Worked with the team of architects and back-end Developers to gather requirements 
+										and enhance functionality.</li>
+										<li>Contributed to technical design documentation.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-2">
+							<a class="section-next goto-section" href="#section-07">
+								<span class="section-next-counter">06/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-07" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">References</h2>
+							<div class="row animation-translate animation-item-2">
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_1_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_1.svg" data-dark-src="{% static 'img/reference_1_b.svg' %}" class="logo-img" alt="Reference 1">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_2_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_2.svg" data-dark-src="{% static 'img/reference_2_b.svg' %}" class="logo-img" alt="Reference 2">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_3_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_3.svg" data-dark-src="{% static 'img/reference_3_b.svg' %}" class="logo-img" alt="Reference 3">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_4_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_4.svg" data-dark-src="{% static 'img/reference_4_b.svg' %}" class="logo-img" alt="Reference 4">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_5_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_5.svg" data-dark-src="{% static 'img/reference_5_b.svg' %}" class="logo-img" alt="Reference 5">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_6_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_6.svg" data-dark-src="{% static 'img/reference_6_b.svg' %}" class="logo-img" alt="Reference 6">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_7_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_7.svg" data-dark-src="{% static 'img/reference_7_b.svg' %}" class="logo-img" alt="Reference 7">
+									</a>
+								</div>
+								<div class="col-6 col-lg-3">
+									<a href="#" class="logo-link">
+										<img src="{% static 'img/reference_8_b.svg' %}" data-light-src="https://www.danielduran.cz/portfolio/assets/img/reference_8.svg" data-dark-src="{% static 'img/reference_8_b.svg' %}" class="logo-img" alt="Reference 8">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-08">
+								<span class="section-next-counter">07/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-08" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Projects</h2>
+							<div class="row animation-translate animation-item-2">
+								<div class="col-12 col-md-4">
+									<a class="card" href="#modal-project-1" data-toggle="modal">
+										<img class="card-img-top" src="{% static 'img/ezgif.com-optimize.gif' %}" alt="Weather">
+										<div class="card-body">
+											<h3 class="card-title">WeatherApp</h3>
+											<h4 class="card-subtitle">Check Current City Weather</h4>
+											<p class="card-tags">Frontend — Backend</p>
+										</div>
+									</a>
+								</div>
+								<div class="col-12 col-md-4">
+									<a class="card" href="#modal-project-2" data-toggle="modal">
+										<img class="card-img-top" src="{% static 'img/project(I).png' %}" alt="Fashionpage">
+										<div class="card-body">
+											<h3 class="card-title">FASHIONPAGE</h3>
+											<h4 class="card-subtitle">A Diary For Fashion Designers</h4>
+											<p class="card-tags">Design — Frontend — Backend</p>
+										</div>
+									</a>
+								</div>
+								<div class="col-12 col-md-4">
+									<a class="card" href="#modal-project-3" data-toggle="modal">
+										<img class="card-img-top" src="{% static 'img/project(II).png' %}" alt="Photography">
+										<div class="card-body">
+											<h3 class="card-title">Femi Olu | Photography</h3>
+											<h4 class="card-subtitle">A Personal Photography Blog</h4>
+											<p class="card-tags">Frontend — Backend</p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-09">
+								<span class="section-next-counter">08/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-09" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Testimonials</h2>
+							<div id="carousel" class="carousel slide animation-translate animation-item-2" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="testimonial">
+											<img src="{% static 'img/femi olu.jpg' %}" class="testimonial-img" alt="Femi Olu">
+											<div class="testimonial-body">
+												<h3 class="testimonial-title">Femi Olu</h3>
+												<h4 class="testimonial-subtitle">WEBSITE OWNER — <a href="#">femiolu.pythonanywhere.com</a></h4>
+												<p class="testimonial-text">
+													Akolade is a Digital Einstein. With his ingenuity and foresight, he delivers an experience WORTH investing in. 
+													His abilities to absorb your desired dreams and manifest them into a virtual reality is gold. He makes things possible!
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="testimonial">
+											<img src="{% static 'img/fashion.jpg' %}" class="testimonial-img" alt="Gbenga Davies">
+											<div class="testimonial-body">
+												<h3 class="testimonial-title">Gbenga Davies</h3>
+												<h4 class="testimonial-subtitle">FASHIONPAGE OWNER — <a href="#">www.fashionpage.com</a></h4>
+												<p class="testimonial-text">
+													Akolade is the man when it comes to my websites. 
+													This is the second time that he has designed my websites, and he is always honest and upfront with costs. 
+													A website is more than just a website to him, it is a reflection of your business and Akolade takes it as a reflection of his work. 
+													He cares about your website and you as a client. I could not ask for more, and give my highest regard towards him.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<ol class="carousel-indicators">
+									<li data-target="#carousel" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel" data-slide-to="1"></li>
+								</ol>
+								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-3">
+							<a class="section-next goto-section" href="#section-10">
+								<span class="section-next-counter">09/10</span>
+								<span class="section-next-label">Next chapter</span>
+								<span class="section-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					<section id="section-10" class="section animation">
+						<div class="section-body">
+							<h2 class="section-title animation-translate-overline animation-item-1">Contact</h2>
+							<div class="row mb-10 animation-translate animation-item-2">
+								<div class="col-12 col-md-4">
+									<div class="contact">
+										<strong class="contact-label">Stay in touch</strong>
+										<a href="mailto:ojeshinaakolade@gmail.com">mail:ojeshinaakolade</a><br>
+										<a href="tel:+2348165313630">(+234) 8165313630</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-4">
+									<div class="contact">
+										<strong class="contact-label">Social</strong>
+										<a href="https://m.facebook.com/ojeshina.a.light"><i class="fa fa-facebook"></i> Facebook</a><br>
+										<a href="https://www.linkedin.com/in/akolade-ojesina"><i class="fa fa-linkedin"></i> LinkedIn</a><br>
+										<a href="https://mobile.twitter.com/Light_oj"><i class="fa fa-twitter"></i> Twitter</a><br>
+										<a href="https://github.com/light-oj"><i class="fa fa-github"></i> Github</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-4">
+									<div class="contact">
+										<strong class="contact-label">Address</strong>
+										04 Omoluabi Street<br>
+										Ibadan<br>
+										IB 200316<br>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 col-xl-9">
+									{% if messages %}
+									{% for message in messages %}
+									<div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+										{{ message }}
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									{% endfor %}
+									{% endif %}
+								</div>
+								<div class="col-12 col-xl-9">
+									<h3 class="section-subtitle animation-translate animation-item-3">Leave a message</h3>
+									<form class="needs-validation animation-translate animation-item-4" action="." method="POST">
+									{% csrf_token %}
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<div class="form-group">
+													<label for="contact-form-name">Name</label>
+													<input type="text" class="form-control" name="name" id="contact-form-name" placeholder="Your name" required>
+													<div class="invalid-feedback">Please enter your name.</div>
+												</div>
+											</div>
+											<div class="col-12 col-md-6">
+												<div class="form-group">
+													<label for="contact-form-name">E-mail</label>
+													<input type="email" class="form-control" name="email" id="contact-form-email" placeholder="@example.com" required>
+													<div class="invalid-feedback">Please enter a valid e-mail address.</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="contact-form-message">Message</label>
+											<textarea class="form-control" name="message" id="contact-form-message" placeholder="Your message" rows="5" required></textarea>
+											<div class="invalid-feedback">Please type some message.</div>
+										</div>
+										<button type="submit" href="#section-10" class="btn btn-primary">Send</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="section-footer animation-translate animation-item-5">
+							<span class="section-next goto-section">
+								<span class="section-next-counter">10/10</span>
+							</span>
+						</div>
+						<div class="copyrights">
+							<div class="row">
+								<div class="col-md-6">
+								<p>&copy; 2020. All rights reserved. Akọ́ládé Ọ̀jẹ́sínà.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Modals -->
+	<div id="modal-project-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+		<div class="modal-dialog modal-fluid">
+			<div class="modal-content">
+				<div class="modal-header">
+					&nbsp;
+					<button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+						<span class="d-none">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<article class="article">
+						<div class="article-header">
+							<h2 class="article-title">WeatherApp</h2>
+							<h3 class="article-subtitle">Check Current City Weather</h3>
+							<p class="article-tags">Design — Frontend — Backend</p>
+						</div>
+						<div class="row flex-column-reverse flex-lg-row">
+							<div class="col-12 col-lg-6">
+								<p>
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+									takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+									consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+									dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+									dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+									ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+									diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+									diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+								</p>
+								<p>
+									Stet clita, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+									dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+									ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+									et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+									est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+									elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+									erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+									Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+								</p>
+							</div>
+							<div class="col-12 col-lg-6">
+								<img class="img-fluid mb-10" src="{% static 'img/ezgif.com-optimize.gif' %}" alt="Weather">
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal-project-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+		<div class="modal-dialog modal-fluid">
+			<div class="modal-content">
+				<div class="modal-header">
+					&nbsp;
+					<button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+						<span class="d-none">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<article class="article">
+						<div class="article-header">
+							<h2 class="article-title">FASHIONPAGE</h2>
+							<h3 class="article-subtitle">A Diary For Fashion Designers</h3>
+							<p class="article-tags">Design — Frontend — Backend</p>
+						</div>
+						<div class="row flex-column-reverse flex-lg-row">
+							<div class="col-12 col-lg-6">
+								<p>
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+									takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+									consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+									dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+									dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+									ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+									diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+									diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+								</p>
+								<p>
+									Stet clita, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+									dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+									ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+									et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+									est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+									elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+									erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+									Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+								</p>
+							</div>
+							<div class="col-12 col-lg-6">
+								<img class="img-fluid mb-10" src="{% static 'img/project(I).png' %}" alt="Nanovo">
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal-project-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+		<div class="modal-dialog modal-fluid">
+			<div class="modal-content">
+				<div class="modal-header">
+					&nbsp;
+					<button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+						<span class="d-none">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<article class="article">
+						<div class="article-header">
+							<h2 class="article-title">Femi Olu | Photography</h2>
+							<h3 class="article-subtitle">A Personal Photography Blog</h3>
+							<p class="article-tags">Frontend — Backend</p>
+						</div>
+						<div class="row flex-column-reverse flex-lg-row">
+							<div class="col-12 col-lg-6">
+								<p>
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+									takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+									consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+									dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+									dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+									ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+									diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+									diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+								</p>
+								<p>
+									Stet clita, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+									dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+									ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+									et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+									est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+									elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+									erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+									Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+								</p>
+							</div>
+							<div class="col-12 col-lg-6">
+								<img class="img-fluid mb-10" src="{% static 'img/project(II).png' %}" alt="Nanovo">
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="preview-themes">
+		<a href="#theme-yellow-black" class="preview-theme preview-color-yellow-black" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/yellow-black.css' %}" data-theme-bg="light"></a>
+		<a href="#theme-black-white" class="preview-theme preview-color-black-white" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/black-white.css' %}" data-theme-bg="dark"></a>
+		<a href="#theme-pink-black" class="preview-theme preview-color-pink-black" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/pink-black.css'%}" data-theme-bg="light"></a>
+		<a href="#theme-blue-black" class="preview-theme preview-color-blue-black" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/blue-black.css' %}" data-theme-bg="light"></a>
+	</div>
+</body>
+<script src="{% static 'js/all.js' %}"></script>
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+
+		$('.preview-theme').click(function () {
+			$('link')[1].href = $(this).data('theme');
+			var imgSrcData = $(this).data('theme-bg') === 'light' ? 'dark-src' : 'light-src';
+			$('img[data-' + imgSrcData + ']').each(function () {
+				$(this).attr('src', $(this).data(imgSrcData));
+			});
+
+			return false;
+		});
+	});
+
+	// Bootstrap form validation example
+	(function() {
+		'use strict';
+		window.addEventListener('load', function() {
+			var forms = document.getElementsByClassName('needs-validation');
+			var validation = Array.prototype.filter.call(forms, function(form) {
+				form.addEventListener('submit', function(event) {
+					if (form.checkValidity() === false) {
+						event.preventDefault();
+						event.stopPropagation();
+					}
+					form.classList.add('was-validated');
+				}, false);
+			});
+		}, false);
+	})();
+</script>
+</html>
